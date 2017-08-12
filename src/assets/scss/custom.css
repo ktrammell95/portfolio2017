@@ -1,0 +1,45 @@
+/*
+Error: Invalid US-ASCII character "\xE2"
+        on line 114 of custom.scss
+
+109:   .testimonial-slide-quotation {
+110:     font-size: 1.2rem;
+111:     position: relative;
+112: 
+113:     &::before {
+114:       content: "“";
+115:       font-size: 6rem;
+116:       color: lighten($black, 80%);
+117:       position: absolute;
+118:       top: -3rem;
+119:       left: -3rem;
+
+Backtrace:
+custom.scss:114
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/util.rb:1300:in `rescue in block in find_encoding_error'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/util.rb:1297:in `block in find_encoding_error'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/util.rb:1296:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/util.rb:1296:in `each_with_index'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/util.rb:1296:in `find_encoding_error'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/util.rb:905:in `check_sass_encoding'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:436:in `check_encoding!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:392:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/bin/scss:13:in `<top (required)>'
+/usr/local/bin/scss:23:in `load'
+/usr/local/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid US-ASCII character \"\xE2\"\A         on line 114 of custom.scss\A \A 109:   .testimonial-slide-quotation {\A 110:     font-size: 1.2rem;\A 111:     position: relative;\A 112: \A 113:     &::before {\A 114:       content: \"“\";\A 115:       font-size: 6rem;\A 116:       color: lighten($black, 80%);\A 117:       position: absolute;\A 118:       top: -3rem;\A 119:       left: -3rem;"; }
