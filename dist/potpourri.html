@@ -10,11 +10,11 @@
   </head>
   <body>
     <nav data-sticky-container>
-      <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+      <div class="title-bar sticky" data-responsive-toggle="portfolio-menu" data-hide-for="medium" data-sticky data-options="marginTop: 0;">
         <button class="menu-icon" type="button" data-toggle></button>
       </div>
 
-      <div class="top-bar sticky" id="example-menu" data-sticky data-options="marginTop: 0;">
+      <div class="top-bar sticky" id="portfolio-menu" data-sticky data-options="marginTop: 0;">
         <div class="top-bar-left">
           <ul class="menu">
             <a href="index.html"><li class="menu-text">KT</li></a>
@@ -22,29 +22,50 @@
         </div>
         <div class="top-bar-right">
           <ul class="medium-horizontal vertical dropdown menu" data-responsive-menu="accordion medium-dropdown">
-            <li class="has-submenu "><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#photography">Photography</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="photography.html">Photography</a></li>
           </ul>
         </div>
       </div>
     </nav>
-    <section id="potpourri">
-        <div class="work-feature-block row">
-            <div class="columns medium-7">
-                <img class="work-feature-block-image" src="http://placehold.it/600x400"/>
+    <section id="potpourri" class="projects-potpourri">
+        <h2>Sysco Application</h2>
+        <div class="work-feature-block grid-x">
+            <div class="columns small-12 medium-7">
+                <h3 class="work-feature-block-header">Project Description</h3>
+                <p>A mobile application created to track inventory</p>
             </div>
-            <div class="columns medium-5">
-                <h2 class="work-feature-block-header">Project Description</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sodales diam ac hendrerit aliquet. Phasellus pretium libero vel molestie maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis est quam. Aenean blandit a urna laoreet tincidunt.</p>
-                <h2>Project Details</h2>
+            <div class="columns small-12 medium-5">
+                <h3>Technologies Used:</h3>
                 <ul>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                    <li>Item 4</li>
+                    <li>React</li>
+                    <li>Chartist.js</li>
+                    <li>Bootstrap</li>
                 </ul>
+            </div>
+            <div class="columns small-12">
+                <div class="grid-x grid-margin-x">
+                    <div class="small-12 medium-4 cell">
+                        <div class="title-box">
+                            <h4 class="title-box-title text-center">Dashboard</h4>
+                        </div>
+                        <img src="assets/img/mm/sysco/dashboard.png">
+                    </div>
+                    <div class="small-12 medium-4 cell">
+                        <div class="title-box">
+                            <h4 class="title-box-title text-center">Reporting</h4>
+                        </div>
+                        <img src="assets/img/mm/sysco/chart.png">
+                    </div>
+                    <div class="small-12 medium-4 cell">
+                        <div class="title-box">
+                            <h4 class="title-box-title text-center">Assignment</h4>
+                        </div>
+                        <img src="assets/img/mm/sysco/assign.png">
+                    </div>
+                </div>
             </div>
         </div>
     </section>

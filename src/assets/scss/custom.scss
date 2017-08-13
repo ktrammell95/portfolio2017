@@ -11,140 +11,176 @@ body, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
   font-family: $primary-font-family;
 }
 
-.top-bar {
-  background-color: $highlight;
+a.projects-link,
+a.tech-skills-link {
+    padding-top: 100px;
+    display: inline-block; /* required for webkit browsers */
+    vertical-align: top;
+}
 
-  ul {
+a.experience-link {
+  vertical-align: top;
+}
+
+  .top-bar, .title-bar {
     background-color: $highlight;
+
+    ul {
+      background-color: $highlight;
+    }
+
+    a {
+      color: $white;
+      font-size: 1.25rem;
+
+      &:hover, &:active, &:focus {
+        font-weight:bold;
+      }
+    }
+
+    .menu-text {
+      color: $white;
+      font-size: 2rem;
+    }
   }
 
-  a {
-    color: $white;
-    font-size: 1.25rem;
+  .hero {
+    vertical-align: top;
+  }
 
-    &:hover, &:active, &:focus {
+  .hero-section {
+    background: url('../img/keyboard.jpg') 0 no-repeat;
+    background-size: cover;
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1, h3 {
+      font-weight: 700;
+    }
+
+    .hero-section-text {
+      color: $white;
+      text-shadow: 1px 1px 2px $black;
+    }
+  }
+
+  .about, .tech-skills, .projects, .experience, .education, .recommendations {
+    margin: 0 20px;
+
+    h2 {
+      border-bottom: 1px solid $highlight;
+    }
+  }
+
+  .experience, .education {
+
+    h4 {
       font-weight:bold;
     }
-  }
 
-  .menu-text {
-    color: $white;
-    font-size: 2rem;
-  }
-}
-
-.hero-section {
-  background: url('../img/keyboard.jpg') 50% no-repeat;
-  background-size: cover;
-  height: 25vh;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  .hero-section-text {
-    color: $white;
-    text-shadow: 1px 1px 2px $black;
-  }
-}
-
-.about, .projects, .experience, .education, .recommendations {
-  margin: 40px 20px 0;
-
-  h2 {
-    border-bottom: 1px solid $highlight;
-  }
-}
-
-.experience, .education {
-
-  h4 {
-    font-weight:bold;
-  }
-
-  ul {
-    list-style-position: inside;
-  }
-}
-
-
-
-.testimonial-slider-container {
-  padding: 1rem 1rem;
-
-  .orbit-previous,
-  .orbit-next {
-    color: $black;
-
-    &:hover, &:active, &:focus {
-      background-color: transparent;
+    ul {
+      list-style-position: inside;
     }
   }
 
-  .orbit-previous {
-    left: -1rem;
-  }
 
-  .orbit-next {
-    right: -1rem;
-  }
 
-  .testimonial-slide {
-    display: flex;
-    justify-content: center;
-  }
+  .testimonial-slider-container {
+    padding: 1rem 1rem;
 
-  .testimonial-slide-content {
-    padding: 1rem 1.5rem;
+    .orbit-previous,
+    .orbit-next {
+      color: $black;
 
-    @media screen and (min-width: 40em) {
-      padding: 1rem 4rem;
+      &:hover, &:active, &:focus {
+        background-color: transparent;
+      }
     }
-  }
 
-  .profile-pic {
-    max-width: 225px;
-  }
-
-  .testimonial-slide-text {
-    padding-left: 3rem;
-  }
-
-  .testimonial-slide-quotation {
-    font-size: 1.2rem;
-    position: relative;
-
-    &::before {
-      content: "“";
-      font-size: 6rem;
-      color: lighten($black, 80%);
-      position: absolute;
-      top: -3rem;
-      left: -3rem;
+    .orbit-previous {
+      left: -1rem;
     }
-  }
 
-  .testimonial-slide-author-container {
-    display: flex;
+    .orbit-next {
+      right: -1rem;
+    }
 
-    @include breakpoint(small only) {
-      .testimonial-slide-author-info {
-        margin-left: 1rem;
+    .testimonial-slide {
+      display: flex;
+      justify-content: center;
+    }
+
+    .testimonial-slide-content {
+      padding: 1rem 1.5rem;
+
+      @media screen and (min-width: 40em) {
+        padding: 1rem 4rem;
+      }
+    }
+
+    .profile-pic {
+      max-width: 225px;
+    }
+
+    .testimonial-slide-text {
+      padding-left: 3rem;
+    }
+
+    .testimonial-slide-quotation {
+      font-size: 1.2rem;
+      position: relative;
+
+      &::before {
+        content: "“";
+        font-size: 6rem;
+        color: lighten($black, 80%);
+        position: absolute;
+        top: -3rem;
+        left: -3rem;
+      }
+    }
+
+    .testimonial-slide-author-container {
+      display: flex;
+
+      @include breakpoint(small only) {
+        .testimonial-slide-author-info {
+          margin-left: 1rem;
+        }
       }
     }
   }
-}
 
-.work-feature-block {
-  padding: 10px 0;
-  border-top: 1px solid $medium-gray;
-  border-bottom: 1px solid $medium-gray;
-}
+  .work-feature-block {
+    margin: 0 20px;
+    padding: 10px 0;
+    border-top: 1px solid $medium-gray;
+    border-bottom: 1px solid $medium-gray;
 
-.work-feature-block-image {
-  display: block;
-  margin: auto;
-  padding: 10px 0;
-}
+    .title-box {
+      margin-top: 10px;
+
+      h4 {
+        font-weight: 700;
+      }
+    }
+  }
+
+  .work-feature-block-image {
+    display: block;
+    margin: auto;
+    padding: 10px;
+  }
 
 
+
+  .projects-sysco, .projects-all-posters, .projects-potpourri {
+    margin-top: 40px;
+
+    h2 {
+      margin: 0 20px;
+    }
+  }
