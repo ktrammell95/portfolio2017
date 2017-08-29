@@ -11,11 +11,21 @@ body, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p {
   font-family: $primary-font-family;
 }
 
+a.about-link {
+  padding-top: 300px;
+  margin-top: -300px;
+  display: inline-block; /* required for webkit browsers */
+  vertical-align: top;
+  visibility: hidden;
+}
+
 a.projects-link,
 a.tech-skills-link {
   padding-top: 100px;
+  margin-top: -100px;
   display: inline-block; /* required for webkit browsers */
   vertical-align: top;
+  visibility: hidden;
 }
 
 a.experience-link, a.photography-link {
