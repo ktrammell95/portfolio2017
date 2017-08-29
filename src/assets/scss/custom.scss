@@ -32,7 +32,8 @@ a.experience-link, a.photography-link {
   vertical-align: top;
 }
 
-.top-bar, .title-bar {
+.top-bar,
+.title-bar {
   background-color: $highlight;
 
   ul {
@@ -77,7 +78,12 @@ a.experience-link, a.photography-link {
   }
 }
 
-.about, .tech-skills, .projects, .experience, .education, .recommendations {
+.about,
+.tech-skills,
+.projects,
+.experience,
+.education,
+.recommendations {
   margin: 0 20px;
 
   h2 {
@@ -85,7 +91,8 @@ a.experience-link, a.photography-link {
   }
 }
 
-.experience, .education {
+.experience,
+.education {
 
   h4 {
     font-weight:bold;
@@ -184,7 +191,9 @@ a.experience-link, a.photography-link {
   padding: 10px;
 }
 
-.projects-sysco, .projects-all-posters, .projects-potpourri {
+.projects-sysco,
+.projects-all-posters,
+.projects-potpourri {
   margin-top: 40px;
 
   h2 {
