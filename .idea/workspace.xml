@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="647dcff3-c31b-4091-a74a-16014bd09e02" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/index.html" afterPath="$PROJECT_DIR$/src/pages/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +27,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/pages/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="268">
-                  <caret line="180" column="11" lean-forward="true" selection-start-line="180" selection-start-column="11" selection-end-line="180" selection-end-column="11" />
+                <state relative-caret-position="148">
+                  <caret line="20" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="185" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -51,8 +51,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="53" />
+                <state relative-caret-position="351">
+                  <caret line="185" column="21" lean-forward="false" selection-start-line="185" selection-start-column="21" selection-end-line="185" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -97,10 +97,10 @@
         <option value="$PROJECT_DIR$/src/pages/sysco.html" />
         <option value="$PROJECT_DIR$/src/pages/potpourri.html" />
         <option value="$PROJECT_DIR$/src/pages/all_posters.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/layouts/default.html" />
         <option value="$PROJECT_DIR$/src/assets/scss/custom.scss" />
         <option value="$PROJECT_DIR$/src/pages/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -569,7 +569,7 @@
       <updated>1502571313316</updated>
       <workItem from="1502571315025" duration="3982000" />
       <workItem from="1502578937057" duration="22578000" />
-      <workItem from="1504023213786" duration="687000" />
+      <workItem from="1504023213786" duration="838000" />
     </task>
     <task id="LOCAL-00001" summary="updating recommendations">
       <created>1502643889219</created>
@@ -599,11 +599,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504023252914</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updating recommendations&#10;">
+      <created>1504034333157</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1504034333157</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27247000" />
+    <option name="totallyTimeSpent" value="27398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="189" y="60" width="1222" height="738" extended-state="0" />
@@ -644,7 +651,8 @@
     <MESSAGE value="updating recommendations" />
     <MESSAGE value="updating index.html&#10;" />
     <MESSAGE value="updating tech-skills styling&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating tech-skills styling&#10;" />
+    <MESSAGE value="updating recommendations&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating recommendations&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -829,18 +837,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/src/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="53" />
+        <state relative-caret-position="148">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="185" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="180" column="11" lean-forward="true" selection-start-line="180" selection-start-column="11" selection-end-line="180" selection-end-column="11" />
+        <state relative-caret-position="351">
+          <caret line="185" column="21" lean-forward="false" selection-start-line="185" selection-start-column="21" selection-end-line="185" selection-end-column="21" />
           <folding />
         </state>
       </provider>
